@@ -9,3 +9,133 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+# Visual Studio Code
+.vscode/
+.history/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Windows image file caches
+*.cache
+*.ilk
+*.ncb
+*.pdb
+*.opendb
+*.opensdf
+*.sdf
+*.tmp
+*.tmp_proj
+*.log
+*.suo
+*.sln
+*.suo
+
+# Windows crash logs, memory dumps, and other system files
+*.pidb
+*.suo
+*.user
+*.rsuser
+*.userosscache
+*.sln.docstates
+.vscode/settings.json
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.DS_Store
+
+# JetBrains Rider
+.idea/
+.idea_modules/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/copyright
+.idea/gradle.xml
+.idea/libraries
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/shelf/
+.idea/svn.xml
+.idea/modules.xml
+.idea/modules.xml
+.idea/tomcat.xml
+.idea/.idea
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/gradle.xml
+.idea/libraries
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/shelf/
+.idea/svn.xml
+
+# Rider and Resharper
+.idea/
+.idea_modules/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/copyright
+.idea/gradle.xml
+.idea/libraries
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/shelf/
+.idea/svn.xml
+
+# End of File
