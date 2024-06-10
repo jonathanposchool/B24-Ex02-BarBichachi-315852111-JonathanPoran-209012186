@@ -1,10 +1,17 @@
 ﻿using System;
-namespace Interface
+using GanricCardGame;
+namespace UI
 {
-    public class CounsolUI
+    public class ConsoleUI : GameUI
     {
-        public CounsolUI()
+        public override void DisplayMessage(string message)
         {
+            Console.WriteLine(message);
+        }
+
+        public override string GetInput()
+        {
+            return Console.ReadLine();
         }
     }
 }

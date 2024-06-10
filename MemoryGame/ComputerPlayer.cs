@@ -1,7 +1,9 @@
 ﻿using System;
-namespace MemoryGame
+using GanricCardGame;
+
+namespace MemoryGameLogic
 {
-    public class ComputerPlayer
+    public class ComputerPlayer : Player
     {
         public ComputerPlayer()
         {

@@ -1,10 +1,15 @@
-﻿using System;
-namespace MemoryGame
+﻿using GanricCardGame;
+
+namespace MemoryGameLogic
 {
-    public class MemoryGame
+    public class MemoryGame : GameBase
     {
-        public MemoryGame()
+        int stame;
+        public override void InitiateGame()
         {
+
         }
     }
+    
+
 }

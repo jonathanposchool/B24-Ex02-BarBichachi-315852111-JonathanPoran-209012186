@@ -25,16 +25,16 @@
     <IntermediateOutputPath>obj\anycpu\Release</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Game\GanricGame.csproj">
-      <Project>{B618A8E7-2A9A-44A9-BC72-9471EB9A1E7A}</Project>
-      <Name>GanricGame</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="MemoryGame.cs" />
     <Compile Include="ComputerPlayer.cs" />
     <Compile Include="Card.cs" />
     <Compile Include="Borad.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Game\GanricCardGame.csproj">
+      <Project>{B618A8E7-2A9A-44A9-BC72-9471EB9A1E7A}</Project>
+      <Name>GanricCardGame</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

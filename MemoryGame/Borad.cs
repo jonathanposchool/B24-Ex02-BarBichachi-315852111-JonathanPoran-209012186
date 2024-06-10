@@ -1,5 +1,5 @@
 ﻿using System;
-namespace MemoryGame
+namespace MemoryGameLogic
 {
     public class Borad
     {

@@ -1,10 +1,8 @@
-﻿using System;
-namespace MemoryGame
+﻿namespace GanricCardGame
 {
-    public class EmptyClass
+    public abstract class GameUI
     {
-        public EmptyClass()
-        {
-        }
+        public abstract void DisplayMessage(string message);
+        public abstract string GetInput();
     }
 }

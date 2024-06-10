@@ -22,9 +22,13 @@
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Game\Game.csproj">
+    <ProjectReference Include="..\MemoryGame\MemoryGameLogic.csproj">
+      <Project>{15B28BA4-3C9F-4781-A6D4-DF11BEFC27A1}</Project>
+      <Name>MemoryGameLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Game\GanricCardGame.csproj">
       <Project>{B618A8E7-2A9A-44A9-BC72-9471EB9A1E7A}</Project>
-      <Name>GanricGame</Name>
+      <Name>GanricCardGame</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

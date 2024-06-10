@@ -28,9 +28,9 @@
     <Compile Include="ConsoleUI.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Game\GanricGame.csproj">
+    <ProjectReference Include="..\Game\GanricCardGame.csproj">
       <Project>{B618A8E7-2A9A-44A9-BC72-9471EB9A1E7A}</Project>
-      <Name>GanricGame</Name>
+      <Name>GanricCardGame</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

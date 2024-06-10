@@ -1,12 +1,23 @@
-﻿namespace GanricGame
+﻿namespace GanricCardGame
 {
-    protected class GameBase
+    public abstract class GameBase
     {
-        private int numOfPlayers;
-        
-        public GameBase(int numOfPlayers)
+        private bool gameActivation=false;
+        public int numOfPlayers;
+        private Player[] Players;
+
+        public GameBase()
         {
-            this.numOfPlayers = numOfPlayers;
+            this.numOfPlayers = 0;
         }
+        public bool isActive()
+        {
+            return gameActivation;
+        }
+        public void startGame()
+        {
+            gameActivation = true;
+        }
+        public abstract void InitiateGame();
     }
 }
