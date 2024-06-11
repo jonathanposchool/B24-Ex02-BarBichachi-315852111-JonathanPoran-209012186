@@ -31,7 +31,7 @@
     <Compile Include="Borad.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Game\GanricCardGame.csproj">
+    <ProjectReference Include="..\GanricCardGame\GanricCardGame.csproj">
       <Project>{B618A8E7-2A9A-44A9-BC72-9471EB9A1E7A}</Project>
       <Name>GanricCardGame</Name>
     </ProjectReference>

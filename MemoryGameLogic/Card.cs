@@ -1,5 +1,4 @@
-﻿using System;
-namespace MemoryGameLogic
+﻿namespace MemoryGameLogic
 {
     public class Card
     {

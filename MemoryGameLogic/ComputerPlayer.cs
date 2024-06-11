@@ -1,5 +1,4 @@
-﻿using System;
-using GanricCardGame;
+﻿using GanricCardGame;
 
 namespace MemoryGameLogic
 {
