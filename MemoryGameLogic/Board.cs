@@ -1,8 +1,8 @@
 ﻿namespace MemoryGameLogic
 {
-    public class Borad
+    public class Board
     {
-        public Borad()
+        public Board()
         {
         }
     }
