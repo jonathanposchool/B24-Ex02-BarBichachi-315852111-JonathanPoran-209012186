@@ -1,4 +1,5 @@
-﻿using MemoryGameLogic;
+﻿using System;
+using MemoryGameLogic;
 namespace Program
 {
     public class Program
@@ -11,7 +12,7 @@ namespace Program
 
             while(game.isActive())
             {
-
+                Console.WriteLine("A test message");
             }
         }
     }

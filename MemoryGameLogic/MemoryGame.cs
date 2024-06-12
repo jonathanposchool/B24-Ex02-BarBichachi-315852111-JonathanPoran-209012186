@@ -9,7 +9,8 @@ namespace MemoryGameLogic
         {
 
         }
-        string getIn
+
+        private string getIn;
     }
     
 
