@@ -1,4 +1,4 @@
-﻿namespace GanricCardGame
+﻿namespace GenericCardGame
 {
     public abstract class GameBase
     {

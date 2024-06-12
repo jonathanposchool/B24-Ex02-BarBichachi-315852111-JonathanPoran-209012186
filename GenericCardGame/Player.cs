@@ -1,4 +1,4 @@
-﻿namespace GanricCardGame
+﻿namespace GenericCardGame
 {
     public class Player
     {

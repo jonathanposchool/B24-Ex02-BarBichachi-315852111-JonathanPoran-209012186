@@ -1,4 +1,4 @@
-﻿using GanricCardGame;
+﻿using GenericCardGame;
 
 namespace MemoryGameLogic
 {

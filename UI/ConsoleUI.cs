@@ -1,5 +1,5 @@
 ﻿using System;
-using GanricCardGame;
+using GenericCardGame;
 namespace UI
 {
     public class ConsoleUI : GameUI
